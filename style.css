@@ -1,5 +1,4 @@
-
-/* Base styles */
+   /* Base styles */
 * {
     margin: 0;
     padding: 0;
@@ -67,8 +66,9 @@ body {
 }
 
 .home-img2 img {
-    width: 100%;
+    width: 150%;
     border-radius: 10px;
+    padding-right: 150px;
 }
 
 @media (max-width: 768px) {
@@ -349,22 +349,22 @@ section {
     transform: scaleX(0);
     transform-origin: left;
 }
-.progress-line.python span {
+.progress-line.linux span {
     width: 99%;
 }
-.progress-line.html span {
+.progress-line.aws span {
     width: 90%;
 }
-.progress-line.css span {
+.progress-line.devops span {
     width: 80%;
 }
-.progress-line.excel span {
+.progress-line.docker span {
     width: 70%;
 }
-.progress-line.word span {
+.progress-line.python span {
     width: 65%;
 }
-.progress-line.powerpoint span {
+.progress-line.mysql span {
     width: 50%;
 }
 .progress-line span::after {
@@ -379,22 +379,22 @@ section {
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
-.progress-line.python span::after {
+.progress-line.linux span::after {
     content: "99%";
 }
-.progress-line.html span::after {
+.progress-line.aws span::after {
     content: "90%";
 }
-.progress-line.css span::after {
+.progress-line.devops span::after {
     content: "80%";
 }
-.progress-line.excel span::after {
+.progress-line.docker span::after {
     content: "70%";
 }
-.progress-line.word span::after {
+.progress-line.python span::after {
     content: "65%";
 }
-.progress-line.powerpoint span::after {
+.progress-line.mysql span::after {
     content: "50%";
 }
 .progress-line span::before {
