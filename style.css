@@ -1,5 +1,5 @@
    /* Base styles */
-* {
+   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -302,7 +302,14 @@ section {
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
-    margin-bottom: -50px;
+    margin-bottom: 50px;
+}
+.heading2 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-top: 20px;
 }
 .bar {
     font-size: 23px;
